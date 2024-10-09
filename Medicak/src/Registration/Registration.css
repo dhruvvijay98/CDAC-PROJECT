@@ -1,0 +1,58 @@
+.register-container {
+    height: 600px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.register-container h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group label {
+    font-weight: bold;
+    width: 30%;
+}
+
+.form-group input {
+    width: 300px;
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    color: #333;
+    box-sizing: border-box;
+}
+
+
+.login-link{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+}
+
+#msg{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
